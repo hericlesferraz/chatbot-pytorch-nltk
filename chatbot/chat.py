@@ -46,16 +46,16 @@ def get_response_from_chat(sentence: str):
     if prob.item() > 0.75:
         for intent in intents["intents"]:
             if tag == intent["tag"]:
-                return f'\n{bot_name}: {random.choice(intent["responses"])}'
+                return f'{random.choice(intent["responses"])}'
             
     else:
-        return f"\n{bot_name}: I don't understand the message"
+        return f"I don't understand the message"
 
-while True:
-    sentence = input("You: ")
-    response = get_response_from_chat(sentence=sentence)
-    print(response)
-    if response == 'quit':
-        break
+# while True:
+#     sentence = input("You: ")
+#     response = get_response_from_chat(sentence=sentence)
+#     print(response)
+#     if response == 'quit':
+#         break
 
     

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chatbot-pytorch-nltk"
+version = "0.1.0"
+description = "Chatbox with python with pytorch and nltk"
+authors = ["Hericles Ferraz"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+Flask = "^2.2.2"
+numpy = "^1.23.5"
+torch = "^1.13.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

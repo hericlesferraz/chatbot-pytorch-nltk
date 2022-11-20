@@ -40,3 +40,9 @@ poetry shell
 6. Click in chat icon and enjoy:
 
 ![chatbox](https://user-images.githubusercontent.com/65249438/202924315-5480fabe-c45e-4cad-bbe5-027661bb7641.gif)
+
+
+---
+
+## References:
+https://www.youtube.com/watch?v=RpWeNzfSUHw&list=PLqnslRFeH2UrFW4AUgn-eY37qOAWQpJyg

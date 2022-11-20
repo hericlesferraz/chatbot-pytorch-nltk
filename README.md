@@ -16,6 +16,9 @@ Repository to study a bit of chatbots with artificial intelligence using python 
 
 ``
 conda create --name chatbot python=3.9
+``
+
+``
 conda install pytorch nltk flask
 ``
 
